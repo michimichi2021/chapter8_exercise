@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.list{
+  width:960px;
+  margin:50px auto 50px;
+  list-style:none;
+}
+
+.top-wrapper li{
+  padding:20px 0 20px 20px;
+  color:black;
+}
+
+li:nth-child(odd){
+  background-color: #eee;
+}
+
+.low-wrapper{
+  width:960px;
+  margin:0px auto 10px;
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+.box{
+  height:200px;
+  width:30%;
+  background-color:yellow;
+  margin-bottom:40px;
+}
+
+#box1{
+  background-color: orange;
+}
+
+#box5{
+  background-color: orange;
+}
+
+#box9{
+  background-color: orange;
+}
+
+
